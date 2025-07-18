@@ -2,7 +2,7 @@
 Simulating a corporate network to build and test blue team defenses in a personal homelab.
 ---
 
-## 🏗️ Architecture Summary
+## Architecture Summary
 
 The lab is hosted on VMware Workstation Pro 17. The environment consists of:
 
@@ -17,7 +17,7 @@ Key technologies and tools used:
 
 ---
 
-## 🎯 Use Cases / Objectives
+## Use Cases / Objectives
 
 - Build a real-world Active Directory domain
 - Forward Windows logs to a centralized SIEM
@@ -28,7 +28,7 @@ Key technologies and tools used:
 
 ---
 
-## 📈 Progress by Phase
+## Progress by Phase
 
 - **Phase 1**: Set up Organizational Units (OUs), Group Policy Objects (GPOs), folder redirection, and role-based access controls.
 - **Phase 2**: Installed Splunk, configured log forwarding from Windows Server and Client, and began tuning alerts.
@@ -36,7 +36,7 @@ Key technologies and tools used:
 
 ---
 
-## 🛠️ Tools & Skills Used
+## Tools & Skills Used
 
 - **Operating Systems**: Windows Server, Windows 10, Ubuntu
 - **Core Skills**: Group Policy Management, Windows Event Log analysis, PowerShell scripting, SIEM configuration
@@ -44,6 +44,6 @@ Key technologies and tools used:
 
 ---
 
-## 🧠 Why This Matters
+## Why This Matters, The Motivation
 
 I recently graduated with a degree in Cybersecurity, and I know that classroom experience only scratches the surface. This lab is a self-driven initiative to refine and deepen my technical skills—so that I’m fully prepared to hit the ground running in a blue team role. I’m learning how enterprise systems behave, how attackers leave traces, and how to respond with purpose and clarity.
