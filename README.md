@@ -44,6 +44,6 @@ Key technologies and tools used:
 
 ---
 
-## Why This Matters, The Motivation
+## Why This Matters: The Motivation
 
-I recently graduated with a degree in Cybersecurity, and I know that classroom experience only scratches the surface. This lab is a self-driven initiative to refine and deepen my technical skills—so that I’m fully prepared to hit the ground running in a blue team role. I’m learning how enterprise systems behave, how attackers leave traces, and how to respond with purpose and clarity.
+I recently graduated with a degree in Cybersecurity, and I know that classroom experience only scratches the surface. This lab is a self-driven initiative to refine and deepen my technical skills, so that I’m fully prepared to hit the ground running in a blue team role. I’m learning how enterprise systems behave, how attackers leave traces, and how to respond with purpose and clarity.
