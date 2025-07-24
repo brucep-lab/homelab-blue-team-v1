@@ -4,12 +4,12 @@ This folder contains two scripts used to simulate lightweight host-based anomaly
 
 ---
 
-## 📦 Files Included
+## Files Included
 
-### `baseline.ps1`
+### `baseline_script.ps1`
 Captures a snapshot of currently running processes and stores them in a CSV baseline file.
 
-### `compare.ps1`
+### `detect_deviations.ps1`
 Compares current running processes against the baseline. Outputs a list of deviations for review or Splunk ingestion.
 
 ---
