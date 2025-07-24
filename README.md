@@ -31,7 +31,7 @@ Key technologies and tools used:
 ## Progress by Phase
 
 - **[Phase 1 – Active Directory & GPO Setup](./phase-1-enterprise-setup/README.md)**: Set up Organizational Units (OUs), Group Policy Objects (GPOs), folder redirection, and role-based access controls.
-- **Phase 2**: Installed Splunk, configured log forwarding from Windows Server and Client, and began tuning alerts.
+- **[Phase 2 - Siem Deployment](./phase-2-siem-detection/phase-2-siem-deployment.md)**: Installed Splunk, configured log forwarding from Windows Server and Client, and began tuning alerts.
 - **Phase 3 (coming soon)**: Simulate attacks, analyze telemetry, respond as if in a live SOC scenario, and document outcomes.
 
 ---
