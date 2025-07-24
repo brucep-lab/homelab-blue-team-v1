@@ -1,4 +1,4 @@
-Phase 1: Active Directory and Group Policy Setup
+## Phase 1: Active Directory and Group Policy Setup
 
 In this phase, I built out the foundational structure of a simulated enterprise network by creating and configuring Organizational Units (OUs), Group Policy Objects (GPOs), user accounts, and role-based access control (RBAC). This setup mimics the kind of environment a security analyst or sysadmin would encounter in a real-world domain.
 
