@@ -14,7 +14,7 @@ Compares current running processes against the baseline. Outputs a list of devia
 
 ---
 
-## ⚙️ How to Use
+##  How to Use
 
 ### Step 1: Establish a Baseline
 
@@ -47,7 +47,7 @@ This outputs a list of processes that:
 
 ---
 
-## 📝 Output Format
+## Output Format
 
 Example `deviations.csv`:
 
@@ -58,7 +58,7 @@ weird.exe,C:\Users\Bruce\AppData\weird.exe,explorer.exe,NotInBaseline+AppDataPat
 
 ---
 
-## 🧠 Tips
+## Tips
 
 - Run the baseline script after system boot and before launching apps or services.
 - You can schedule the comparison script using Task Scheduler to run every X minutes.
@@ -66,6 +66,6 @@ weird.exe,C:\Users\Bruce\AppData\weird.exe,explorer.exe,NotInBaseline+AppDataPat
 
 ---
 
-## 🔒 Disclaimer
+## Disclaimer
 
 These scripts are for homelab and educational use only. They do not replace a real EDR and may generate false positives. Tuning and context-aware logic are encouraged.
