@@ -87,9 +87,9 @@ This script captures a snapshot of expected process activity immediately after b
 - SHA256 hash
 - Parent process ID (PPID)
 
-**Output:** CSV (`baseline.csv`)
+**Output:** CSV (`baseline_processes.csv`)
 
-**Link:** [`/scripts/baseline.ps1`](./scripts/baseline.ps1)
+**Link:** [`/scripts/baseline_script.ps1`](./scripts/baseline_script.ps1)
 
 ---
 
@@ -102,9 +102,9 @@ This script checks currently running processes against the baseline. It flags de
 - Unsigned binaries (planned feature)
 - Abnormal parent-child process relationships
 
-**Output:** CSV (`deviations.csv`)
+**Output:** CSV (`anomaly_log<date/time>.csv`)
 
-**Link:** [`/scripts/compare.ps1`](./scripts/compare.ps1)
+**Link:** [`/scripts/detect_deviations.ps1`](./scripts/detect_deviations.ps1)
 
 ---
 
