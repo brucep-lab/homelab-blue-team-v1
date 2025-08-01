@@ -38,9 +38,9 @@ Key technologies and tools used:
 
 ## Tools & Skills Used
 
-- **Operating Systems**: Windows Server, Windows 10, Ubuntu
+- **Operating Systems**: Windows Server, Windows 10, Ubuntu, Kali Linux
 - **Core Skills**: Group Policy Management, Windows Event Log analysis, PowerShell scripting, SIEM configuration
-- **Tools**: Splunk, gpresult, Event Viewer, Server Manager
+- **Tools**: Splunk, gpresult, Event Viewer, Server Manager, CrackMapExec
 
 ---
 
