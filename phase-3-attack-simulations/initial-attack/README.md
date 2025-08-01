@@ -15,7 +15,7 @@ To verify that:
 
 ---
 
-### 🛠️ Setup Overview
+### Setup Overview
 - **Attacker Machine:** Kali Linux (192.168.x.xx)
 - **Target Machine:** WIN-CL1 (local Windows 10 endpoint)
 - **User Account Created:** `bruteuser`,
@@ -27,6 +27,11 @@ Password list included 5 incorrect passwords and 1 correct entry to emulate a su
 ---
 
 ### Command Used (from Kali)
+
+![CrackMapExec Output](../Screenshots/Screenshot%20(16).png)
+
+
+
 `
 crackmapexec smb 192.168.1.20 -u bruteuser -p bruteuser-passwordlist.txt -d .
 `
@@ -42,9 +47,10 @@ crackmapexec smb 192.168.1.20 -u bruteuser -p bruteuser-passwordlist.txt -d .
 Splunk successfully ingested both failed and successful login attempts:
 
 - **Event ID 4625:** Failed login attempts
-- **Event ID 4624:** Successful login (when correct password was reached)
 
 A preconfigured alert fired once the system detected multiple 4625s within a 15-minute window—validating the detection rule.
+
+![CrackMapExec Output](../Screenshots/Screenshot%20(15).png)
 
 ---
 
