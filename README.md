@@ -9,6 +9,7 @@ The lab is hosted on VMware Workstation Pro 17. The environment consists of:
 - **Windows Server 2022** (Active Directory Domain Controller)
 - **Windows 10** (client workstation)
 - **Ubuntu Server** (runs Splunk for SIEM)
+- **Kali Linux**
 
 Key technologies and tools used:
 - **SIEM**: Splunk Enterprise
